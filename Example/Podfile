@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'DoogieAlert_Example' do
+  pod 'DoogieAlert', :path => '../'
+
+  target 'DoogieAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
